@@ -1,0 +1,58 @@
+﻿2025-08-30 12:19:02, Info                  DISM   PID=13056 TID=10588 Scratch directory set to 'C:\Users\USER\AppData\Local\Temp\'. - CDISMManager::put_ScratchDir
+2025-08-30 12:19:02, Info                  DISM   PID=13056 TID=10588 DismCore.dll version: 10.0.26100.4652 - CDISMManager::FinalConstruct
+2025-08-30 12:19:02, Info                  DISM   Initialized Panther logging at C:\system.sav\logs\HPSAUWP_dism.log
+2025-08-30 12:19:02, Info                  DISM   PID=13056 TID=10588 Successfully loaded the ImageSession at "C:\Windows\system32\Dism" - CDISMManager::LoadLocalImageSession
+2025-08-30 12:19:02, Info                  DISM   Initialized Panther logging at C:\system.sav\logs\HPSAUWP_dism.log
+2025-08-30 12:19:02, Info                  DISM   DISM Provider Store: PID=13056 TID=10588 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2025-08-30 12:19:02, Info                  DISM   Initialized Panther logging at C:\system.sav\logs\HPSAUWP_dism.log
+2025-08-30 12:19:02, Info                  DISM   DISM Manager: PID=13056 TID=10588 Successfully created the local image session and provider store. - CDISMManager::CreateLocalImageSession
+2025-08-30 12:19:02, Info                  DISM   DISM.EXE: 
+2025-08-30 12:19:02, Info                  DISM   DISM.EXE: <----- Starting Dism.exe session ----->
+2025-08-30 12:19:02, Info                  DISM   DISM.EXE: 
+2025-08-30 12:19:02, Info                  DISM   DISM.EXE: Host machine information: OS Version=10.0.26100, Running architecture=amd64, Number of processors=12
+2025-08-30 12:19:02, Info                  DISM   DISM.EXE: Instance information: Parent process=C:\SWSetup\sp160330\InstallHPSA.exe, Parent process PID=13028
+2025-08-30 12:19:02, Info                  DISM   DISM.EXE: Dism.exe version: 10.0.26100.1150
+2025-08-30 12:19:02, Info                  DISM   DISM.EXE: Executing command line: "C:\Windows\system32\DISM.exe" /Online /Add-ProvisionedAppxPackage /PackagePath:"C:\SWSetup\sp160330\HPSA9x\4d698007d9d842d5b1e6fd1ead2c1cd4.appxbundle" /LogPath:C:\system.sav\logs\HPSAUWP_dism.log /LicensePath:"C:\SWSetup\sp160330\HPSA9x\4d698007d9d842d5b1e6fd1ead2c1cd4_License1.xml"
+2025-08-30 12:19:02, Info                  DISM   DISM Manager: PID=13056 TID=10588 physical location path: C:\ - CDISMManager::CreateImageSession
+2025-08-30 12:19:02, Info                  DISM   DISM Manager: PID=13056 TID=10588 Event name for current DISM session is Global\{1FEB7F5D-9C2A-468B-8C51-88ED92736B9F} - CDISMManager::CheckSessionAndLock
+2025-08-30 12:19:02, Info                  DISM   DISM Manager: PID=13056 TID=10588 Create session event 0x280 for current DISM session and event name is Global\{1FEB7F5D-9C2A-468B-8C51-88ED92736B9F}  - CDISMManager::CheckSessionAndLock
+2025-08-30 12:19:02, Info                  DISM   DISM Manager: PID=13056 TID=10588 Copying DISM from "C:\Windows\System32\Dism" - CDISMManager::CreateImageSessionFromLocation
+2025-08-30 12:19:02, Info                  DISM   DISM Manager: PID=13056 TID=10588 No Sandbox was created, DISM running in-place. - CDISMManager::CreateImageSessionFromLocation
+2025-08-30 12:19:02, Info                  DISM   DISM Manager: PID=13056 TID=10588 Successfully loaded the ImageSession at "C:\Windows\System32\Dism" - CDISMManager::LoadRemoteImageSession
+2025-08-30 12:19:02, Info                  DISM   DISM Image Session: PID=13256 TID=10272 Instantiating the Provider Store. - CDISMImageSession::get_ProviderStore
+2025-08-30 12:19:02, Info                  DISM   DISM OS Provider: PID=13256 TID=10272 Defaulting SystemPath to C:\ - CDISMOSServiceManager::Final_OnConnect
+2025-08-30 12:19:02, Info                  DISM   DISM OS Provider: PID=13256 TID=10272 Defaulting Windows folder to C:\Windows - CDISMOSServiceManager::Final_OnConnect
+2025-08-30 12:19:02, Info                  DISM   DISM Provider Store: PID=13256 TID=10272 Attempting to initialize the logger from the Image Session. - CDISMProviderStore::Final_OnConnect
+2025-08-30 12:19:02, Info                  DISM   Initialized Panther logging at C:\system.sav\logs\HPSAUWP_dism.log
+2025-08-30 12:19:02, Info                  DISM   DISM Provider Store: PID=13256 TID=10272 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2025-08-30 12:19:02, Info                  DISM   Initialized Panther logging at C:\system.sav\logs\HPSAUWP_dism.log
+2025-08-30 12:19:02, Info                  DISM   Initialized Panther logging at C:\system.sav\logs\HPSAUWP_dism.log
+2025-08-30 12:19:02, Info                  DISM   DISM Manager: PID=13056 TID=10588 Image session successfully loaded from location: C:\Windows\System32\Dism - CDISMManager::CreateImageSession
+2025-08-30 12:19:02, Info                  DISM   DISM.EXE: Target image information: OS Version=10.0.26100.4652, Image architecture=amd64
+2025-08-30 12:19:02, Info                  DISM   DISM.EXE: Image session version: 10.0.26100.1150
+2025-08-30 12:19:02, Info                  DISM   DISM Transmog Provider: PID=13256 TID=9392 Current image session is [ONLINE] - CTransmogManager::GetMode
+2025-08-30 12:19:02, Info                  DISM   DISM Transmog Provider: PID=13256 TID=9392 Audit Mode: [No] - CTransmogManager::Initialize
+2025-08-30 12:19:02, Info                  DISM   DISM Transmog Provider: PID=13256 TID=9392 GetProductType: ProductType = [WinNT] - CTransmogManager::GetProductType
+2025-08-30 12:19:02, Info                  DISM   DISM Transmog Provider: PID=13256 TID=9392 Product Type: [WinNT] - CTransmogManager::Initialize
+2025-08-30 12:19:02, Info                  DISM   DISM Transmog Provider: PID=13256 TID=9392 Product Type ServerNT : [No] - CTransmogManager::Initialize
+2025-08-30 12:19:02, Info                  DISM   DISM OS Provider: PID=13256 TID=9392 Determined System directory to be C:\Windows\System32 - CDISMOSServiceManager::get_SystemDirectory
+2025-08-30 12:19:02, Info                  CSI    00000001 Shim considered [l:123]'\??\C:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.26100.4651_none_a510910d775cffb2\wcp.dll' : got STATUS_SUCCESS
+2025-08-30 12:19:02, Info                  DISM   DISM Driver Manager: PID=13256 TID=9392 Further logs for driver related operations can be found in the target operating system at %WINDIR%\inf\setupapi.offline.log - CDriverManager::Initialize
+2025-08-30 12:19:02, Info                  DISM   DISM Package Manager: PID=13256 TID=9392 Finished initializing the CbsConUI Handler. - CCbsConUIHandler::Initialize
+2025-08-30 12:19:02, Info                  DISM   DISM Package Manager: PID=13256 TID=9392 CBS is being initialized for online use. More information about CBS actions can be located at: %windir%\logs\CBS\CBS.log - CDISMPackageManager::Initialize
+2025-08-30 12:19:02, Info                  DISM   DISM Package Manager: PID=13256 TID=9392 Loaded servicing stack for online use. - CDISMPackageManager::CreateCbsSession
+2025-08-30 12:19:02, Info                  CSI    00000001 Shim considered [l:123]'\??\C:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.26100.4651_none_a510910d775cffb2\wcp.dll' : got STATUS_SUCCESS
+2025-08-30 12:19:02, Info                  DISM   DISM Appx Provider: PID=13256 TID=10272 Converting IDismStringCollectionVector. - CAppxManager::ConvertIDismStringCollectionToVector
+2025-08-30 12:19:02, Info                  DISM   DISM Appx Provider: PID=13256 TID=10272 Converting IDismStringCollectionVector. - CAppxManager::ConvertIDismStringCollectionToVector
+2025-08-30 12:19:02, Info                  DISM   DISM Appx Provider: PID=13256 TID=10272 Converting IDismStringCollectionVector. - CAppxManager::ConvertIDismStringCollectionToVector
+2025-08-30 12:19:04, Info                  DISM   DISM Appx Provider: PID=13256 TID=10272 onecore\admin\appmodel\utilities\provisionhelper\msixpackageadapter.cpp (1705) - MsixPackage::Provisioning::Library::MsixPackageAdapter::IsPackageFramework [Msg] - No package reader found for AD2F1837.HPSupportAssistant_9.46.17.0_neutral_~_v10z8vjag6ke6, expected for bundles. - CAppxManager::InformationLoggingCallback
+2025-08-30 12:19:07, Info                  DISM   DISM Appx Provider: PID=13256 TID=10272 onecore\admin\appmodel\utilities\provisionhelper\msixpackageadapter.cpp (1311) - MsixPackage::Provisioning::Library::MsixPackageAdapter::IsDependencyTargetPackage [Msg] - No package reader found for AD2F1837.HPSupportAssistant_9.46.17.0_neutral_~_v10z8vjag6ke6, expected for bundles. - CAppxManager::InformationLoggingCallback
+2025-08-30 12:19:07, Info                  DISM   DISM Appx Provider: PID=13256 TID=10272 onecore\admin\appmodel\utilities\provisionhelper\msixpackageadapter.cpp (1705) - MsixPackage::Provisioning::Library::MsixPackageAdapter::IsPackageFramework [Msg] - No package reader found for AD2F1837.HPSupportAssistant_9.46.17.0_neutral_~_v10z8vjag6ke6, expected for bundles. - CAppxManager::InformationLoggingCallback
+2025-08-30 12:19:07, Info                  DISM   DISM Appx Provider: PID=13256 TID=10272 onecore\admin\appmodel\utilities\provisionhelper\msixpackageadapter.cpp (1311) - MsixPackage::Provisioning::Library::MsixPackageAdapter::IsDependencyTargetPackage [Msg] - No package reader found for AD2F1837.HPSupportAssistant_9.46.17.0_neutral_~_v10z8vjag6ke6, expected for bundles. - CAppxManager::InformationLoggingCallback
+2025-08-30 12:19:07, Info                  DISM   DISM Appx Provider: PID=13256 TID=10272 onecore\admin\appmodel\utilities\provisionhelper\msixpackageadapter.cpp (1705) - MsixPackage::Provisioning::Library::MsixPackageAdapter::IsPackageFramework [Msg] - No package reader found for AD2F1837.HPSupportAssistant_9.46.17.0_neutral_~_v10z8vjag6ke6, expected for bundles. - CAppxManager::InformationLoggingCallback
+2025-08-30 12:19:07, Info                  DISM   DISM Package Manager: PID=13256 TID=10272 Finalizing CBS core. - CDISMPackageManager::Finalize
+2025-08-30 12:19:07, Info                  DISM   DISM Manager: PID=13056 TID=10588 Closing session event handle 0x280 - CDISMManager::CleanupImageSessionEntry
+2025-08-30 12:19:07, Info                  DISM   DISM.EXE: Image session has been closed. Reboot required=no.
+2025-08-30 12:19:07, Info                  DISM   DISM.EXE: 
+2025-08-30 12:19:07, Info                  DISM   DISM.EXE: <----- Ending Dism.exe session ----->
+2025-08-30 12:19:07, Info                  DISM   DISM.EXE: 

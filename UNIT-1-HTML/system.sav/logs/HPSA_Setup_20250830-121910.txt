@@ -1,0 +1,118 @@
+8/30/2025 12:18:34 PM: IsPreinstall: Checking if presintall mode
+8/30/2025 12:18:34 PM: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup\State key is present, ImageState=IMAGE_STATE_COMPLETE
+8/30/2025 12:18:34 PM: Preinstall: False
+8/30/2025 12:18:34 PM: SilentInstall: False
+8/30/2025 12:18:34 PM: The current installing HPSA version: 9.46.17.0
+8/30/2025 12:18:34 PM: Program::HPSA8Installed: Error: Object reference not set to an instance of an object.
+8/30/2025 12:18:34 PM: isUpgrading: False, installedHPSAVersion: 0.0.0.0
+8/30/2025 12:18:34 PM: Current PC is HP device.
+8/30/2025 12:18:34 PM: current language: en-us
+8/30/2025 12:18:34 PM: InstallFusionService: start.
+8/30/2025 12:18:34 PM: FusionRestarter::StartProcess:: C:\SWSetup\sp160330\Fusion\SysInfoCap.exe
+8/30/2025 12:18:35 PM: FusionRestarter::StartProcess::ExitCode: 0
+8/30/2025 12:18:35 PM: FusionRestarter::StartProcess:: C:\SWSetup\sp160330\Fusion\AppHelperCap.exe
+8/30/2025 12:18:35 PM: FusionRestarter::StartProcess::ExitCode: 0
+8/30/2025 12:18:35 PM: FusionRestarter::StartProcess:: C:\SWSetup\sp160330\Fusion\NetworkCap.exe
+8/30/2025 12:18:36 PM: FusionRestarter::StartProcess::ExitCode: 0
+8/30/2025 12:18:36 PM: FusionRestarter::StartProcess:: C:\SWSetup\sp160330\Fusion\DiagsCap.exe
+8/30/2025 12:18:36 PM: FusionRestarter::StartProcess::ExitCode: 0
+8/30/2025 12:18:36 PM: FusionRestarter::StartProcess:: C:\Program Files\HP\HP Enabling Services\SysInfoCap.exe
+8/30/2025 12:18:36 PM: FusionRestarter::StartProcess::ExitCode: 0
+8/30/2025 12:18:36 PM: Install SysInfoCap, result: 0
+8/30/2025 12:18:36 PM: FusionRestarter::StartProcess:: C:\Program Files\HP\HP Enabling Services\AppHelperCap.exe
+8/30/2025 12:18:37 PM: FusionRestarter::StartProcess::ExitCode: 0
+8/30/2025 12:18:37 PM: Install AppHelperCap, result: 0
+8/30/2025 12:18:37 PM: FusionRestarter::StartProcess:: C:\Program Files\HP\HP Enabling Services\NetworkCap.exe
+8/30/2025 12:18:37 PM: FusionRestarter::StartProcess::ExitCode: 0
+8/30/2025 12:18:37 PM: Install HPNetworkCap, result: 0
+8/30/2025 12:18:37 PM: FusionRestarter::StartProcess:: C:\Program Files\HP\HP Enabling Services\DiagsCap.exe
+8/30/2025 12:18:38 PM: FusionRestarter::StartProcess::ExitCode: 0
+8/30/2025 12:18:38 PM: Install HPDiagsCap, result: 0
+8/30/2025 12:18:38 PM: Configure Fusion Services dependencies and group.
+8/30/2025 12:18:38 PM: HPSysInfoCap:Stopped
+8/30/2025 12:18:38 PM: HPAppHelperCap:Stopped
+8/30/2025 12:18:38 PM: HPNetworkCap:Stopped
+8/30/2025 12:18:38 PM: HPDiagsCap:Stopped
+8/30/2025 12:18:48 PM: HPSysInfoCap:Running
+8/30/2025 12:18:48 PM: HPAppHelperCap:Running
+8/30/2025 12:18:48 PM: HPSysInfoCap:Running
+8/30/2025 12:18:48 PM: HPAppHelperCap:Running
+8/30/2025 12:18:48 PM: Program::HPSA8Installed: Error: Object reference not set to an instance of an object.
+8/30/2025 12:18:48 PM: HPSA 8 or Framework not been installed before.
+8/30/2025 12:18:48 PM: Meet to condition to install HPSA 9: True
+8/30/2025 12:18:48 PM: Start to uninstall HPSA 9
+8/30/2025 12:18:57 PM: End uninstall HPSA 9, result code: 0
+8/30/2025 12:18:57 PM: Uninstall HPSA 9 finished.
+8/30/2025 12:19:02 PM: InstallDependencies output: 
+C:\SWSetup\sp160330\HPSA9x\Dependencies\x64
+C:\SWSetup\sp160330\HPSA9x\Dependencies\x64\Microsoft.VCLibs.x64.14.00.appx
+
+8/30/2025 12:19:02 PM: InstallDependencies error: 
+Add-AppxPackage : Deployment failed with HRESULT: 0x80073D02, The package could not be installed because resources it 
+modifies are currently in use.
+error 0x80073D02: Unable to install because the following apps need to be closed 
+Microsoft.WindowsStore_22401.1400.6.0_x64__8wekyb3d8bbwe.
+NOTE: For additional information, look for [ActivityId] 3340f0f6-19c8-000b-678d-4133c819dc01 in the Event Log or use 
+the command line Get-AppPackageLog -ActivityID 3340f0f6-19c8-000b-678d-4133c819dc01
+At C:\Users\USER\AppData\Local\Temp\tmpAEDD.tmp.ps1:8 char:1
++ Add-AppxPackage -Path "$dir\Microsoft.VCLibs.$arch.14.00.appx"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\SWSetup\sp16....x64.14.00.appx:String) [Add-AppxPackage], Exception
+    + FullyQualifiedErrorId : DeploymentError,Microsoft.Windows.Appx.PackageManager.Commands.AddAppxPackageCommand
+ 
+
+8/30/2025 12:19:02 PM: Program::InstallHPSA9Dism: arguments: /Online /Add-ProvisionedAppxPackage /PackagePath:"C:\SWSetup\sp160330\HPSA9x\4d698007d9d842d5b1e6fd1ead2c1cd4.appxbundle" /LogPath:C:\system.sav\logs\HPSAUWP_dism.log /LicensePath:"C:\SWSetup\sp160330\HPSA9x\4d698007d9d842d5b1e6fd1ead2c1cd4_License1.xml"
+8/30/2025 12:19:07 PM: Program::InstallHPSA9Dism: ExitCode: 0
+8/30/2025 12:19:07 PM: Install HPSA9 package finished: install result: True
+8/30/2025 12:19:07 PM: Creating registry keys
+8/30/2025 12:19:07 PM: current system is 64-bit system, using the 64-bit reg file
+8/30/2025 12:19:07 PM: Creating extraction folder : C:\SWSetup\sp160330\HPSA\
+8/30/2025 12:19:07 PM: Successfully created registry keys
+8/30/2025 12:19:07 PM: Succesfully deleted files in: C:\SWSetup\sp160330\HPSA\
+8/30/2025 12:19:07 PM: Set permissions for users group on HPSFMsgrStatus.xml to full control
+8/30/2025 12:19:07 PM: Once again to make sure we have full permissions for the HP Support Framework folder under ProgramData
+8/30/2025 12:19:07 PM: granting admin access for file: C:\ProgramData\HP\HP Support Framework\Resources\HPSFMessenger\HPSFMsgrStatus.xml
+8/30/2025 12:19:07 PM: granting admin access for file: C:\ProgramData\HP\HP Support Framework\Resources\HPSFMessenger
+8/30/2025 12:19:07 PM: granting admin access for file: C:\ProgramData\HP\HP Support Framework\Resources
+8/30/2025 12:19:07 PM: IsPreinstall: Checking if presintall mode
+8/30/2025 12:19:07 PM: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup\State key is present, ImageState=IMAGE_STATE_COMPLETE
+8/30/2025 12:19:07 PM: Setting Language Key: en-US
+8/30/2025 12:19:07 PM: Installing System Tray
+8/30/2025 12:19:07 PM: System Tray was not upgraded. Same version
+8/30/2025 12:19:07 PM: Remove the word 'support' so that HPSA shows up in start menu.
+8/30/2025 12:19:07 PM: Installing Help and Support
+8/30/2025 12:19:07 PM: In doHelpSupportInstallPOST
+8/30/2025 12:19:07 PM: signature validation failed for C:\Windows\Help\OEM\scripts\checkmui.dll
+8/30/2025 12:19:07 PM: Current system is Win8 or later
+8/30/2025 12:19:07 PM: InstallTasks::ControlTaskbar:: command: ShowTaskbarIcon
+8/30/2025 12:19:07 PM: path is: C:\Program Files (x86)\HP\HP Support Framework\TaskbarController.exe
+8/30/2025 12:19:07 PM: Setting NotifyPopup for HPSA popup mode
+8/30/2025 12:19:07 PM: Refreshing system icon cache
+8/30/2025 12:19:07 PM: Preparing to create HPSA shortcuts
+8/30/2025 12:19:07 PM: Creating desktop shortcut for HPSA.
+8/30/2025 12:19:08 PM: Create desktop lnk file result: True
+8/30/2025 12:19:08 PM: Refresh system icon cache again to make sure we show the correct application icon
+8/30/2025 12:19:08 PM: InstallTasks::ControlTaskbar:: command: ShowTaskbarIcon
+8/30/2025 12:19:08 PM: path is: C:\Program Files (x86)\HP\HP Support Framework\TaskbarController.exe
+8/30/2025 12:19:08 PM: Program::RestorePreference: Error:Object reference not set to an instance of an object.
+8/30/2025 12:19:08 PM: Start to copy keys in HKEY_USERS 
+8/30/2025 12:19:08 PM: subkey count in HKEY_USERS is 6
+8/30/2025 12:19:08 PM: Try to open subkey .DEFAULT
+8/30/2025 12:19:08 PM: Try to open subkey Software\Hewlett-Packard\HPSF_Save under this user key
+8/30/2025 12:19:08 PM: Try to open subkey S-1-5-19
+8/30/2025 12:19:08 PM: Try to open subkey Software\Hewlett-Packard\HPSF_Save under this user key
+8/30/2025 12:19:08 PM: Try to open subkey S-1-5-20
+8/30/2025 12:19:08 PM: Try to open subkey Software\Hewlett-Packard\HPSF_Save under this user key
+8/30/2025 12:19:08 PM: Try to open subkey S-1-5-21-1248075905-1348563527-2304212495-1000
+8/30/2025 12:19:08 PM: Try to open subkey Software\Hewlett-Packard\HPSF_Save under this user key
+8/30/2025 12:19:08 PM: Try to open subkey S-1-5-21-1248075905-1348563527-2304212495-1000_Classes
+8/30/2025 12:19:08 PM: Try to open subkey Software\Hewlett-Packard\HPSF_Save under this user key
+8/30/2025 12:19:08 PM: Try to open subkey S-1-5-18
+8/30/2025 12:19:08 PM: Try to open subkey Software\Hewlett-Packard\HPSF_Save under this user key
+8/30/2025 12:19:08 PM: Target folder is C:\users\All Users\AppData\Local\HP\HP Support Framework Backup, dest folder is C:\users\All Users\AppData\Local\HP\HP Support Framework
+8/30/2025 12:19:08 PM: Target folder is C:\users\Default\AppData\Local\HP\HP Support Framework Backup, dest folder is C:\users\Default\AppData\Local\HP\HP Support Framework
+8/30/2025 12:19:08 PM: Target folder is C:\users\Default User\AppData\Local\HP\HP Support Framework Backup, dest folder is C:\users\Default User\AppData\Local\HP\HP Support Framework
+8/30/2025 12:19:08 PM: Target folder is C:\users\defaultuser0\AppData\Local\HP\HP Support Framework Backup, dest folder is C:\users\defaultuser0\AppData\Local\HP\HP Support Framework
+8/30/2025 12:19:08 PM: Target folder is C:\users\Public\AppData\Local\HP\HP Support Framework Backup, dest folder is C:\users\Public\AppData\Local\HP\HP Support Framework
+8/30/2025 12:19:08 PM: Target folder is C:\users\USER\AppData\Local\HP\HP Support Framework Backup, dest folder is C:\users\USER\AppData\Local\HP\HP Support Framework
+8/30/2025 12:19:10 PM: Program::Main: ExitCode: 0
